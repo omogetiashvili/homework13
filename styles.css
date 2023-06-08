@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
+  overflow-x: hidden;
+}
+
+
+p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  color: #07043B;
+
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: #07043B;
+
+
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #07043B;
+}
+
+h4 {
+  font-weight: 400;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: #3DA08F;
+
+}
+
+h5 {
+  font-weight: 400;
+  font-family: "Open Sans";
+  font-size: 10px;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #07043B;
+  
+}
+
+.header {
+  width: 327px;
+  display: flex;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.sidetexts {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  padding-left: 75px;
+}
+
+.firsticon {
+  display: flex;
+  flex-direction: row;
+  column-gap: 7px;
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 98px;
+}
+
+.box h1 {
+  width: 320px;
+  height: 108px;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.box h2 {
+  line-height: 21px;
+  width: 296px;
+  height: 84px;
+  text-align: center;
+}
+
+.emailbox {
+  width: 283px;
+  height: 40px;
+  border: 0.625px solid #07043B;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  padding-left: 21px;
+  margin-top: 32px;
+}
+
+.getstarted {
+  width: 304px;
+  height: 40px;
+  border: none;
+  background-color: #2F65F8;
+  color: white;
+  font-weight: 700;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+
+.boxsecond {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-image: url(./assets/Rectangle\ Copy\ \(5\).svg);
+   background-repeat: repeat-x;
+   width: 100%;
+   margin-top: 90px;
+   height: 961px;
+
+}
+
+.boxsecond h3 {
+  line-height: 24px;
+  text-align: center;
+  width: 320px;
+  height: 63px;
+  margin: auto;
+}
+
+.boxsecond h2 {
+  line-height: 21px;
+  width: 320px;
+  height: 63px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+
+.boxsecondphoto {
+
+  margin-top: 93px;
+  margin-bottom: 87px;
+
+}
+
+
+.tutorialdiv {
+  width: 130px;
+  height: 23px;
+  border-bottom: 1px solid #3DA08F;
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.whitebox {
+  width: 280px;
+  height: 170px;
+  border-radius: 3.93px;
+  background-color: white;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mark {
+  font-weight: 400;
+  font-size: 35px;
+  color: #07043B;
+  width: 64px;
+  height: 21px;
+  font-family: "Nunito Sans";
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+
+.boxinbox h5 {
+  line-height: 18px;
+  width: 271px;
+  height: 83px;
+  letter-spacing: 0.38px;
+  color: #07043B;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.kyle {
+  width: 105px;
+  height: 27px;
+  display: flex;
+  column-gap: 10px;
+  margin-top: 5px;
+}
+
+.kyletexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.kyletexts h5{
+  width: 58px;
+  height: 12px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.45px;
+  line-height: 12px;
+  color: #07043B;
+}
+
+.kyletexts h6 {
+  width: 73px;
+  height: 12px;
+  font-family: "Open Sans";
+  font-size: 6px;
+  line-height: 11px;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+}
+
+.bluebox {
+  width: 100%;
+  height: 345px;
+  background-color: #575988;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bluebox h3 {
+  color: white;
+  width: 195px;
+  height: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 18px;
+  margin-top: 54px;
+}
+
+.bluebox h2 {
+  width: 280px;
+  height: 84px;
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
+
+.emailboxsec {
+  width: 233px;
+  height: 32px;
+  padding-left: 7px;
+  margin-top: 20px;
+}
+
+.blueboxbutton {
+
+  width: 243px;
+  height: 32px;
+  border: none;
+  border-radius: 1.47px;
+  background-color: #2F65F8;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11px;
+  color: white;
+  margin-top: 8px;
+  
+
+}
+
+.footer {
+  width: 100%;
+  height: 590px;
+  background-color: #07043B;
+  display: flex;
+  flex-direction: column;
+}
+
+.alllasttexts {
+  margin-left: 39px;
+  margin-top: 65px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+
+}
+.phone h2 {
+  color: white;
+  width: 182px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Open Sans";
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.mail h2 {
+  color: white;
+  width: 182px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Open Sans";
+}
+
+.phoneandmail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-top: 32px;
+}
+
+.aboutus {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.aboutus h2{
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans";
+  
+}
+
+.contactus {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.contactus h2 {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans";
+  
+}
+
+.lasticons {
+  width: 104px;
+  height: 27px;
+  margin: auto;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+
+}
+
+.imgtextdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailandgetstart {
+  display: flex;
+  flex-direction: column;
+}
+
+.firsthalf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+
+.secondhalf {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondhalfbox {
+  
+}
+
+
+
